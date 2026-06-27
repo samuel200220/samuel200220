@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220">
+  <defs>
+    <!-- Background Card Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040614" />
+      <stop offset="100%" stop-color="#0b0e20" />
+    </linearGradient>
+
+    <!-- Glowing gradients -->
+    <linearGradient id="gradCyanBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="100%" stop-color="#0072ff" />
+    </linearGradient>
+    <linearGradient id="gradVioletBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9b5de5" />
+      <stop offset="100%" stop-color="#0072ff" />
+    </linearGradient>
+
+    <filter id="glowCyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glowViolet" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .timeline-bg {
+      fill: url(#bgGrad);
+      stroke: #1e293b;
+      stroke-width: 1.5;
+      rx: 15px;
+    }
+    .timeline-title {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      fill: #ffffff;
+    }
+    .timeline-desc {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 11px;
+      fill: #a0aec0;
+    }
+    .timeline-date {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #00f5d4;
+      letter-spacing: 1px;
+    }
+    .timeline-date-violet {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #9b5de5;
+      letter-spacing: 1px;
+    }
+    .card-border {
+      fill: #0f172a;
+      stroke-width: 1;
+      rx: 10px;
+    }
+  </style>
+
+  <!-- Outer Box -->
+  <rect width="900" height="220" class="timeline-bg" />
+
+  <!-- Grid decoration -->
+  <g opacity="0.08">
+    <line x1="0" y1="110" x2="900" y2="110" stroke="#00f5d4" stroke-width="1" />
+  </g>
+
+  <!-- Central Timeline Line -->
+  <line x1="100" y1="110" x2="800" y2="110" stroke="#1e293b" stroke-width="4" />
+  <line x1="100" y1="110" x2="500" y2="110" stroke="url(#gradCyanBlue)" stroke-width="4" />
+  <line x1="500" y1="110" x2="800" y2="110" stroke="url(#gradVioletBlue)" stroke-width="4" />
+
+  <!-- Hackathon 1: IA Santé -->
+  <!-- Card Above the Timeline -->
+  <g transform="translate(180, 20)">
+    <rect width="220" height="70" class="card-border" stroke="#00f5d4" />
+    <text x="15" y="25" class="timeline-date">IA SANTÉ</text>
+    <text x="15" y="45" class="timeline-title">Hackathon IA Santé</text>
+    <text x="15" y="60" class="timeline-desc">Solutions IA appliquées à la médecine.</text>
+  </g>
+  <!-- Connector dot on timeline -->
+  <g transform="translate(290, 110)">
+    <line x1="0" y1="-20" x2="0" y2="0" stroke="#00f5d4" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="8" fill="#00f5d4" filter="url(#glowCyan)" />
+    <circle cx="0" cy="0" r="4" fill="#ffffff" />
+  </g>
+
+  <!-- Hackathon 2: CIDP Hackathon -->
+  <!-- Card Below the Timeline -->
+  <g transform="translate(500, 130)">
+    <rect width="220" height="70" class="card-border" stroke="#9b5de5" />
+    <text x="15" y="25" class="timeline-date-violet">CIDP COMPETITION</text>
+    <text x="15" y="45" class="timeline-title">CIDP Hackathon</text>
+    <text x="15" y="60" class="timeline-desc">Innovation et cybersécurité.</text>
+  </g>
+  <!-- Connector dot on timeline -->
+  <g transform="translate(610, 110)">
+    <line x1="0" y1="0" x2="0" y2="20" stroke="#9b5de5" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="8" fill="#9b5de5" filter="url(#glowViolet)" />
+    <circle cx="0" cy="0" r="4" fill="#ffffff" />
+  </g>
+
+  <!-- Start/End indicators -->
+  <circle cx="100" cy="110" r="4" fill="#00f5d4" />
+  <circle cx="800" cy="110" r="4" fill="#9b5de5" />
+</svg>

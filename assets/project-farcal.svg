@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" width="420" height="220">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d1f" />
+      <stop offset="100%" stop-color="#04060f" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="100%" stop-color="#0072ff" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .card-base {
+      fill: url(#bgGrad);
+      stroke: url(#borderGrad);
+      stroke-width: 1.5;
+      rx: 12px;
+    }
+    .project-title {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      fill: #ffffff;
+      letter-spacing: 0.5px;
+    }
+    .project-desc {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 12px;
+      fill: #a0aec0;
+    }
+    .badge-bg {
+      fill: #1a202c;
+      rx: 6px;
+      stroke: #2d3748;
+      stroke-width: 0.8;
+    }
+    .badge-text {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      fill: #00f5d4;
+    }
+  </style>
+
+  <!-- Card Base -->
+  <rect width="420" height="220" class="card-base" />
+
+  <!-- Grid decoration inside card -->
+  <path d="M 320 0 L 320 220 M 0 160 L 420 160" stroke="#1e293b" stroke-width="0.5" stroke-dasharray="4 4" opacity="0.3" />
+
+  <!-- Glowing Abstract Illustration (Farcal = Urban Transport / Math) -->
+  <g transform="translate(330, 30)" opacity="0.8">
+    <circle cx="40" cy="40" r="30" fill="none" stroke="#00f5d4" stroke-width="1.5" stroke-dasharray="5 5" />
+    <path d="M 10 40 L 70 40 M 40 10 L 40 70" stroke="#0072ff" stroke-width="1" opacity="0.5" />
+    <path d="M 20 20 L 60 60" stroke="#9b5de5" stroke-width="1.5" />
+    <circle cx="40" cy="40" r="6" fill="#00f5d4" filter="url(#glow)" />
+    <!-- Dynamic Line representing path -->
+    <path d="M 15,65 Q 40,15 65,65" fill="none" stroke="#00f5d4" stroke-width="2" />
+  </g>
+
+  <!-- Project Title & Status -->
+  <text x="30" y="45" class="project-title">Farcal</text>
+  
+  <g transform="translate(30, 60)">
+    <!-- Status Indicator -->
+    <circle cx="5" cy="0" r="4" fill="#00f5d4" />
+    <text x="15" y="4" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="700" fill="#718096" letter-spacing="1">LIVE / PRODUCTION</text>
+  </g>
+
+  <!-- Project Description (Manual Wrapping) -->
+  <text x="30" y="90" class="project-desc">
+    <tspan x="30" dy="0">Application intelligente de calcul des tarifs</tspan>
+    <tspan x="30" dy="18">urbains de transport. Optimisation des trajets</tspan>
+    <tspan x="30" dy="18">et prédiction des coûts en temps réel.</tspan>
+  </text>
+
+  <!-- Tech Badges -->
+  <g transform="translate(30, 175)">
+    <!-- Badge 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="85" height="24" class="badge-bg" />
+      <text x="42.5" y="15" class="badge-text" text-anchor="middle">React Native</text>
+    </g>
+    <!-- Badge 2 -->
+    <g transform="translate(93, 0)">
+      <rect width="65" height="24" class="badge-bg" />
+      <text x="32.5" y="15" class="badge-text" text-anchor="middle" style="fill: #0072ff;">FastAPI</text>
+    </g>
+    <!-- Badge 3 -->
+    <g transform="translate(166, 0)">
+      <rect width="75" height="24" class="badge-bg" />
+      <text x="37.5" y="15" class="badge-text" text-anchor="middle" style="fill: #9b5de5;">AI Engine</text>
+    </g>
+  </g>
+</svg>

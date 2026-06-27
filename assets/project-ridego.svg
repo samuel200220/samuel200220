@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" width="420" height="220">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d1f" />
+      <stop offset="100%" stop-color="#04060f" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0072ff" />
+      <stop offset="100%" stop-color="#00f5d4" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .card-base {
+      fill: url(#bgGrad);
+      stroke: url(#borderGrad);
+      stroke-width: 1.5;
+      rx: 12px;
+    }
+    .project-title {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      fill: #ffffff;
+      letter-spacing: 0.5px;
+    }
+    .project-desc {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 12px;
+      fill: #a0aec0;
+    }
+    .badge-bg {
+      fill: #1a202c;
+      rx: 6px;
+      stroke: #2d3748;
+      stroke-width: 0.8;
+    }
+    .badge-text {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      fill: #0072ff;
+    }
+  </style>
+
+  <!-- Card Base -->
+  <rect width="420" height="220" class="card-base" />
+
+  <!-- Grid decoration inside card -->
+  <path d="M 320 0 L 320 220 M 0 160 L 420 160" stroke="#1e293b" stroke-width="0.5" stroke-dasharray="4 4" opacity="0.3" />
+
+  <!-- Glowing Abstract Illustration (Ride&Go = Map/Car navigation) -->
+  <g transform="translate(330, 40)" opacity="0.8">
+    <!-- Map grid and marker -->
+    <path d="M 15 15 L 65 15 M 15 40 L 65 40 M 15 65 L 65 65" stroke="#1e293b" stroke-width="1.5" />
+    <path d="M 15 15 L 15 65 M 40 15 L 40 65 M 65 15 L 65 65" stroke="#1e293b" stroke-width="1.5" />
+    
+    <!-- Path line -->
+    <path d="M 15 65 Q 40 40 65 15" fill="none" stroke="#0072ff" stroke-width="2" stroke-dasharray="2 2" />
+    
+    <!-- Location Pin -->
+    <g transform="translate(40,30)">
+      <path d="M 0 0 C -6 -6 -10 -12 -10 -18 C -10 -24 -5 -28 0 -28 C 5 -28 10 -24 10 -18 C 10 -12 6 -6 0 0 Z" fill="#00f5d4" filter="url(#glow)" />
+      <circle cx="0" cy="-18" r="4" fill="#0a0e1a" />
+    </g>
+  </g>
+
+  <!-- Project Title & Status -->
+  <text x="30" y="45" class="project-title">Ride&amp;Go</text>
+  
+  <g transform="translate(30, 60)">
+    <!-- Status Indicator -->
+    <circle cx="5" cy="0" r="4" fill="#0072ff" />
+    <text x="15" y="4" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="700" fill="#718096" letter-spacing="1">STABLE RELEASE</text>
+  </g>
+
+  <!-- Project Description (Manual Wrapping) -->
+  <text x="30" y="90" class="project-desc">
+    <tspan x="30" dy="0">Plateforme de transport intelligent. Service</tspan>
+    <tspan x="30" dy="18">de covoiturage, localisation en temps réel,</tspan>
+    <tspan x="30" dy="18">et calcul d'itinéraires optimisés.</tspan>
+  </text>
+
+  <!-- Tech Badges -->
+  <g transform="translate(30, 175)">
+    <!-- Badge 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="60" height="24" class="badge-bg" />
+      <text x="30" y="15" class="badge-text" text-anchor="middle">ReactJS</text>
+    </g>
+    <!-- Badge 2 -->
+    <g transform="translate(68, 0)">
+      <rect width="60" height="24" class="badge-bg" />
+      <text x="30" y="15" class="badge-text" text-anchor="middle" style="fill: #00f5d4;">Node.js</text>
+    </g>
+    <!-- Badge 3 -->
+    <g transform="translate(136, 0)">
+      <rect width="70" height="24" class="badge-bg" />
+      <text x="35" y="15" class="badge-text" text-anchor="middle" style="fill: #9b5de5;">MongoDB</text>
+    </g>
+  </g>
+</svg>
