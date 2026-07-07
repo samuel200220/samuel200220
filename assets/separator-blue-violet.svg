@@ -25,5 +25,30 @@
   <circle cx="310" cy="15" r="2" fill="#0072ff" />
   <circle cx="590" cy="15" r="2" fill="#9b5de5" />
   
-  <rect x="420" y="8" width="60" height="4" rx="2" fill="url(#gradBlueViolet)" opacity="0.3" />
+  <!-- Slithering Cyber-Snake along the separator line -->
+  <g>
+    <!-- We hide the motion path itself -->
+    <path id="sepPath1" d="M 0 20 L 300 20 L 320 10 L 580 10 L 600 20 L 900 20" fill="none" stroke="none" />
+    
+    <!-- Snake Head -->
+    <circle r="3.5" fill="#00f5d4" filter="url(#separatorGlow)">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#sepPath1" />
+      </animateMotion>
+    </circle>
+    
+    <!-- Snake Body Segment 1 -->
+    <circle r="2.5" fill="#0072ff" opacity="0.8">
+      <animateMotion dur="8s" repeatCount="indefinite" begin="0.1s" rotate="auto">
+        <mpath href="#sepPath1" />
+      </animateMotion>
+    </circle>
+    
+    <!-- Snake Body Segment 2 -->
+    <circle r="1.8" fill="#9b5de5" opacity="0.5">
+      <animateMotion dur="8s" repeatCount="indefinite" begin="0.2s" rotate="auto">
+        <mpath href="#sepPath1" />
+      </animateMotion>
+    </circle>
+  </g>
 </svg>

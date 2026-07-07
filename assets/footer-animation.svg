@@ -52,4 +52,23 @@
   <!-- Glowing Line below/above -->
   <path d="M 150,55 L 400,55 L 450,65 L 500,55 L 750,55" class="wave-line" filter="url(#textGlow)" />
   <path d="M 200,25 L 420,25 L 450,15 L 480,25 L 700,25" class="wave-line" opacity="0.5" />
+
+  <!-- Cyber-Snake slithering along the bottom wave line -->
+  <g>
+    <path id="footerWavePath" d="M 150,55 L 400,55 L 450,65 L 500,55 L 750,55" fill="none" stroke="none" />
+    
+    <!-- Snake Head -->
+    <circle r="3.2" fill="#00f5d4" filter="url(#textGlow)">
+      <animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#footerWavePath" />
+      </animateMotion>
+    </circle>
+    
+    <!-- Snake Body Segment 1 -->
+    <circle r="2.2" fill="#9b5de5" opacity="0.8">
+      <animateMotion dur="6s" repeatCount="indefinite" begin="0.1s" rotate="auto">
+        <mpath href="#footerWavePath" />
+      </animateMotion>
+    </circle>
+  </g>
 </svg>

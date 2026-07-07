@@ -128,4 +128,31 @@
 
   <!-- Futuristic Hud Overlay Ring (Static / decorative) -->
   <circle cx="125" cy="125" r="95" fill="none" stroke="#374151" stroke-width="1" />
+
+  <!-- Cyber Snake orbiting the avatar outer ring -->
+  <g>
+    <!-- We hide the motion path itself -->
+    <path id="orbitPath" d="M 125,15 A 110,110 0 1,1 125,235 A 110,110 0 1,1 125,15" fill="none" stroke="none" />
+    
+    <!-- Snake Head -->
+    <circle r="4" fill="#00f5d4" filter="url(#ringGlow)">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbitPath" />
+      </animateMotion>
+    </circle>
+    
+    <!-- Snake Body Segment 1 -->
+    <circle r="3.2" fill="#0072ff" opacity="0.8">
+      <animateMotion dur="8s" repeatCount="indefinite" begin="0.08s" rotate="auto">
+        <mpath href="#orbitPath" />
+      </animateMotion>
+    </circle>
+    
+    <!-- Snake Body Segment 2 -->
+    <circle r="2.4" fill="#9b5de5" opacity="0.5">
+      <animateMotion dur="8s" repeatCount="indefinite" begin="0.16s" rotate="auto">
+        <mpath href="#orbitPath" />
+      </animateMotion>
+    </circle>
+  </g>
 </svg>

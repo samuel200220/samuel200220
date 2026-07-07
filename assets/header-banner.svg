@@ -137,6 +137,41 @@
     <circle cx="70" cy="160" r="4" fill="#9b5de5" class="pulse-node-delayed" />
   </g>
 
+  <!-- Glowing Cyber-Snakes slithering along the circuit paths -->
+  <g>
+    <!-- Cyan Cyber-Snake slithering left-to-right -->
+    <g>
+      <circle r="4.5" fill="#00f5d4" filter="url(#glowCyan)">
+        <animateMotion dur="10s" repeatCount="indefinite" path="M -50,120 L 150,120 L 220,180 L 350,180 L 400,130 L 600,130 L 650,80 L 780,80 L 830,130 L 950,130" />
+      </circle>
+      <circle r="3.5" fill="#00d2ff" opacity="0.8">
+        <animateMotion dur="10s" repeatCount="indefinite" begin="0.08s" path="M -50,120 L 150,120 L 220,180 L 350,180 L 400,130 L 600,130 L 650,80 L 780,80 L 830,130 L 950,130" />
+      </circle>
+      <circle r="2.8" fill="#0072ff" opacity="0.6">
+        <animateMotion dur="10s" repeatCount="indefinite" begin="0.16s" path="M -50,120 L 150,120 L 220,180 L 350,180 L 400,130 L 600,130 L 650,80 L 780,80 L 830,130 L 950,130" />
+      </circle>
+      <circle r="2.0" fill="#9b5de5" opacity="0.4">
+        <animateMotion dur="10s" repeatCount="indefinite" begin="0.24s" path="M -50,120 L 150,120 L 220,180 L 350,180 L 400,130 L 600,130 L 650,80 L 780,80 L 830,130 L 950,130" />
+      </circle>
+    </g>
+
+    <!-- Violet Cyber-Snake slithering right-to-left -->
+    <g>
+      <circle r="4.5" fill="#9b5de5" filter="url(#glowViolet)">
+        <animateMotion dur="12s" repeatCount="indefinite" path="M 950,60 L 750,60 L 700,110 L 550,110 L 500,60 L 300,60 L 250,110 L 120,110 L 70,160 L -50,160" />
+      </circle>
+      <circle r="3.5" fill="#0072ff" opacity="0.8">
+        <animateMotion dur="12s" repeatCount="indefinite" begin="0.08s" path="M 950,60 L 750,60 L 700,110 L 550,110 L 500,60 L 300,60 L 250,110 L 120,110 L 70,160 L -50,160" />
+      </circle>
+      <circle r="2.8" fill="#00d2ff" opacity="0.6">
+        <animateMotion dur="12s" repeatCount="indefinite" begin="0.16s" path="M 950,60 L 750,60 L 700,110 L 550,110 L 500,60 L 300,60 L 250,110 L 120,110 L 70,160 L -50,160" />
+      </circle>
+      <circle r="2.0" fill="#00f5d4" opacity="0.4">
+        <animateMotion dur="12s" repeatCount="indefinite" begin="0.24s" path="M 950,60 L 750,60 L 700,110 L 550,110 L 500,60 L 300,60 L 250,110 L 120,110 L 70,160 L -50,160" />
+      </circle>
+    </g>
+  </g>
+
   <!-- Futuristic Corner Highlights -->
   <path d="M 10 30 L 10 10 L 30 10" fill="none" stroke="#00f5d4" stroke-width="2.5" />
   <path d="M 890 30 L 890 10 L 870 10" fill="none" stroke="#9b5de5" stroke-width="2.5" />

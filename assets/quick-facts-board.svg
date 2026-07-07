@@ -117,4 +117,31 @@
     <text x="65" y="85" class="fact-title" text-anchor="middle">Entrepreneur</text>
     <text x="65" y="102" class="fact-subtitle" text-anchor="middle">INNOVATION</text>
   </g>
+
+  <!-- Cyber Snake patrolling the quick facts board border -->
+  <g>
+    <!-- We hide the motion path itself (offset 10px from border) -->
+    <path id="boardBorderPath" d="M 10,10 L 890,10 L 890,140 L 10,140 Z" fill="none" stroke="none" />
+    
+    <!-- Snake Head -->
+    <circle r="3.5" fill="#00f5d4" filter="url(#cardGlow)">
+      <animateMotion dur="14s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#boardBorderPath" />
+      </animateMotion>
+    </circle>
+    
+    <!-- Snake Body Segment 1 -->
+    <circle r="2.5" fill="#0072ff" opacity="0.8">
+      <animateMotion dur="14s" repeatCount="indefinite" begin="0.08s" rotate="auto">
+        <mpath href="#boardBorderPath" />
+      </animateMotion>
+    </circle>
+    
+    <!-- Snake Body Segment 2 -->
+    <circle r="1.8" fill="#9b5de5" opacity="0.5">
+      <animateMotion dur="14s" repeatCount="indefinite" begin="0.16s" rotate="auto">
+        <mpath href="#boardBorderPath" />
+      </animateMotion>
+    </circle>
+  </g>
 </svg>
