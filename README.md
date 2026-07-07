@@ -32,7 +32,7 @@ et une grille HTML alignant la photo de profil stylisée (avatar IA) et les titr
     <!-- Colonne 2: Titre et Typing SVG dynamique -->
     <td width="70%" align="left" valign="middle" style="border: none; padding: 20px;">
       <h1 style="margin: 0; font-family: 'Segoe UI', system-ui, sans-serif; font-size: 2.2em; color: #ffffff; letter-spacing: 1px;">
-        Salut, je suis <span style="color: #00f5d4; background: linear-gradient(45deg, #00f5d4, #0072ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Samuel Sean</span> 👋
+        Salut, je suis <span style="color: #00f5d4; background: linear-gradient(45deg, #00f5d4, #0072ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Samuel Sean</span>
       </h1>
       <br />
       <!-- Animation Typing SVG de Demolab avec les rôles demandés -->
