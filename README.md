@@ -10,7 +10,7 @@
 
 <!-- ============================ HERO ============================ -->
 <div align="center">
-  <img src="./assets/header-banner.svg" width="100%" alt="Samuel Sean Fotsing — AI Engineer & Full Stack Developer" />
+  <img src="./assets/header-banner.svg" width="100%" alt="Samuel Sean Tagatsing Fotsing — AI Engineer & Full Stack Developer" />
 </div>
 
 <br />
@@ -19,7 +19,7 @@
   <img src="./assets/avatar-frame.svg" width="180" height="180" alt="Avatar de Samuel Sean Fotsing" />
 </div>
 
-<h1 align="center">Salut, je suis Samuel Sean 👋</h1>
+<h1 align="center">Salut, je suis Samuel Sean </h1>
 
 <div align="center">
   <a href="https://github.com/samuel200220">
@@ -167,7 +167,7 @@
 <table width="100%" border="0" align="center">
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/samuel200220/farcal" target="_blank"><img src="./assets/project-farcal.svg" width="100%" alt="Farcal" /></a>
+      <a href="https://github.com/samuel200220/FARE_CALCULATOR_WEB_APP" target="_blank"><img src="./assets/project-farcal.svg" width="100%" alt="Farcal" /></a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/samuel200220/foodchain-ai" target="_blank"><img src="./assets/project-foodchain.svg" width="100%" alt="FoodChain AI" /></a>
@@ -183,10 +183,10 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/samuel200220/yowpainter" target="_blank"><img src="./assets/project-yowpainter.svg" width="100%" alt="YowPainter" /></a>
+      <a href="https://github.com/NguetchuissiBrunel/YP-Frontend" target="_blank"><img src="./assets/project-yowpainter.svg" width="100%" alt="YowPainter" /></a>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/samuel200220/eduai" target="_blank"><img src="./assets/project-eduai.svg" width="100%" alt="EduAI" /></a>
+      <a href="https://github.com/EduAIOrg" target="_blank"><img src="./assets/project-eduai.svg" width="100%" alt="EduAI" /></a>
     </td>
   </tr>
 </table>
@@ -230,8 +230,8 @@
 <p align="center">Un projet innovant en IA ou une collaboration open-source en tête ? Écrivez-moi 👇</p>
 
 <div align="center">
-  <a href="https://linkedin.com/in/samuel200220" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0072ff?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:samuelfotsing2002@gmail.com"><img src="https://img.shields.io/badge/Email-00f5d4?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/samuel-fotsing-bb2731374/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0072ff?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:samuelftagat@gmail.com"><img src="https://img.shields.io/badge/Email-00f5d4?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" /></a>
   <a href="https://x.com/samuel200220" target="_blank"><img src="https://img.shields.io/badge/X-9b5de5?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
   <a href="https://github.com/samuel200220" target="_blank"><img src="https://img.shields.io/badge/GitHub-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </div>
