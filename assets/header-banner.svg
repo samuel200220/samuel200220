@@ -37,7 +37,7 @@
   </defs>
 
   <style>
-    /* CSS Styles & Animations */
+    /* CSS Styles and Animations */
     .grid-line {
       stroke: #1a1e3a;
       stroke-width: 0.8;
