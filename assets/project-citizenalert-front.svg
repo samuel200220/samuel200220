@@ -8,8 +8,8 @@
 
     <!-- Border Gradient -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#9b5de5" />
-      <stop offset="100%" stop-color="#00f5d4" />
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="100%" stop-color="#0072ff" />
     </linearGradient>
 
     <!-- Glow Filter -->
@@ -48,7 +48,7 @@
       font-family: 'Segoe UI', system-ui, sans-serif;
       font-size: 10px;
       font-weight: 600;
-      fill: #9b5de5;
+      fill: #00f5d4;
     }
   </style>
 
@@ -58,50 +58,51 @@
   <!-- Grid decoration inside card -->
   <path d="M 320 0 L 320 220 M 0 160 L 420 160" stroke="#1e293b" stroke-width="0.5" stroke-dasharray="4 4" opacity="0.3" />
 
-  <!-- Glowing Abstract Illustration (YowPainter = Palette / Brush / Next.js) -->
+  <!-- Glowing Abstract Illustration (Mobile / Location Pin / PWA) -->
   <g transform="translate(330, 35)" opacity="0.85">
-    <!-- Palette shape -->
-    <path d="M 20 40 C 20 20 40 15 60 25 C 75 35 70 65 50 65 C 45 65 42 60 38 60 C 32 60 30 68 22 60 C 18 55 20 45 20 40 Z" fill="none" stroke="#9b5de5" stroke-width="1.5" />
-    <!-- Color dots on palette -->
-    <circle cx="35" cy="28" r="4" fill="#00f5d4" filter="url(#glow)" />
-    <circle cx="50" cy="32" r="4" fill="#0072ff" />
-    <circle cx="58" cy="45" r="4" fill="#9b5de5" />
-    <!-- Brush diagonal -->
-    <path d="M 15 65 L 45 25" stroke="#00f5d4" stroke-width="2" stroke-linecap="round" />
+    <!-- Phone outline -->
+    <rect x="20" y="10" width="40" height="70" rx="6" fill="none" stroke="#00f5d4" stroke-width="1.5" />
+    <!-- Screen header line -->
+    <line x1="20" y1="20" x2="60" y2="20" stroke="#1e293b" stroke-width="1" />
+    <!-- Map marker pin glowing inside phone -->
+    <path d="M 40 30 C 34 30 30 34 30 40 C 30 47 40 56 40 56 C 40 56 50 47 50 40 C 50 34 46 30 40 30 Z" fill="#0072ff" opacity="0.6" />
+    <circle cx="40" cy="38" r="4" fill="#00f5d4" filter="url(#glow)" />
+    <!-- Pulsing signal rings -->
+    <circle cx="40" cy="38" r="15" fill="none" stroke="#9b5de5" stroke-width="1" stroke-dasharray="3 3" />
   </g>
 
   <!-- Project Title & Status -->
-  <text x="30" y="45" class="project-title">YowPainter Client</text>
+  <text x="30" y="45" class="project-title">CitizenAlert Client</text>
   
   <g transform="translate(30, 60)">
     <!-- Status Indicator -->
-    <circle cx="5" cy="0" r="4" fill="#9b5de5" />
-    <text x="15" y="4" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="700" fill="#718096" letter-spacing="1">FRONTEND / NEXT.JS</text>
+    <circle cx="5" cy="0" r="4" fill="#00f5d4" />
+    <text x="15" y="4" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="700" fill="#718096" letter-spacing="1">PWA / NEXT.JS 16</text>
   </g>
 
   <!-- Project Description (Manual Wrapping) -->
   <text x="30" y="90" class="project-desc">
-    <tspan x="30" dy="0">Plateforme web pour la réservation et la</tspan>
-    <tspan x="30" dy="18">gestion d'artistes peintres. Galerie d'art</tspan>
-    <tspan x="30" dy="18">numérique et catalogue d'œuvres.</tspan>
+    <tspan x="30" dy="0">Client PWA moderne pour cartographier et</tspan>
+    <tspan x="30" dy="18">signaler les incidents municipaux. Mode</tspan>
+    <tspan x="30" dy="18">hors-ligne, Leaflet &amp; classification IA.</tspan>
   </text>
 
   <!-- Tech Badges -->
   <g transform="translate(30, 175)">
     <!-- Badge 1 -->
     <g transform="translate(0, 0)">
-      <rect width="65" height="24" class="badge-bg" />
-      <text x="32.5" y="15" class="badge-text" text-anchor="middle">Next.js</text>
+      <rect width="80" height="24" class="badge-bg" />
+      <text x="40" y="15" class="badge-text" text-anchor="middle">Next.js 16</text>
     </g>
     <!-- Badge 2 -->
-    <g transform="translate(73, 0)">
+    <g transform="translate(88, 0)">
       <rect width="65" height="24" class="badge-bg" />
-      <text x="32.5" y="15" class="badge-text" text-anchor="middle" style="fill: #00f5d4;">React</text>
+      <text x="32.5" y="15" class="badge-text" text-anchor="middle" style="fill: #0072ff;">React 19</text>
     </g>
     <!-- Badge 3 -->
-    <g transform="translate(146, 0)">
-      <rect width="80" height="24" class="badge-bg" />
-      <text x="40" y="15" class="badge-text" text-anchor="middle" style="fill: #0072ff;">TypeScript</text>
+    <g transform="translate(161, 0)">
+      <rect width="85" height="24" class="badge-bg" />
+      <text x="42.5" y="15" class="badge-text" text-anchor="middle" style="fill: #9b5de5;">Tailwind v4</text>
     </g>
   </g>
 </svg>

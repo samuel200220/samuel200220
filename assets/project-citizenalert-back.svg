@@ -8,8 +8,8 @@
 
     <!-- Border Gradient -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#9b5de5" />
-      <stop offset="100%" stop-color="#00f5d4" />
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="100%" stop-color="#9b5de5" />
     </linearGradient>
 
     <!-- Glow Filter -->
@@ -48,7 +48,7 @@
       font-family: 'Segoe UI', system-ui, sans-serif;
       font-size: 10px;
       font-weight: 600;
-      fill: #9b5de5;
+      fill: #00f5d4;
     }
   </style>
 
@@ -58,32 +58,33 @@
   <!-- Grid decoration inside card -->
   <path d="M 320 0 L 320 220 M 0 160 L 420 160" stroke="#1e293b" stroke-width="0.5" stroke-dasharray="4 4" opacity="0.3" />
 
-  <!-- Glowing Abstract Illustration (YowPainter = Palette / Brush / Next.js) -->
+  <!-- Glowing Abstract Illustration (FastAPI / Server / Database / Lightning) -->
   <g transform="translate(330, 35)" opacity="0.85">
-    <!-- Palette shape -->
-    <path d="M 20 40 C 20 20 40 15 60 25 C 75 35 70 65 50 65 C 45 65 42 60 38 60 C 32 60 30 68 22 60 C 18 55 20 45 20 40 Z" fill="none" stroke="#9b5de5" stroke-width="1.5" />
-    <!-- Color dots on palette -->
-    <circle cx="35" cy="28" r="4" fill="#00f5d4" filter="url(#glow)" />
-    <circle cx="50" cy="32" r="4" fill="#0072ff" />
-    <circle cx="58" cy="45" r="4" fill="#9b5de5" />
-    <!-- Brush diagonal -->
-    <path d="M 15 65 L 45 25" stroke="#00f5d4" stroke-width="2" stroke-linecap="round" />
+    <!-- Server Stack -->
+    <rect x="15" y="15" width="50" height="14" rx="3" fill="none" stroke="#00f5d4" stroke-width="1.5" />
+    <circle cx="23" cy="22" r="2" fill="#00f5d4" filter="url(#glow)" />
+    <rect x="15" y="35" width="50" height="14" rx="3" fill="none" stroke="#0072ff" stroke-width="1.5" />
+    <circle cx="23" cy="42" r="2" fill="#0072ff" />
+    <rect x="15" y="55" width="50" height="14" rx="3" fill="none" stroke="#9b5de5" stroke-width="1.5" />
+    <circle cx="23" cy="62" r="2" fill="#9b5de5" />
+    <!-- Lightning connection -->
+    <path d="M 45 22 L 50 40 L 42 42 L 52 62" stroke="#00f5d4" stroke-width="1.5" fill="none" />
   </g>
 
   <!-- Project Title & Status -->
-  <text x="30" y="45" class="project-title">YowPainter Client</text>
+  <text x="30" y="45" class="project-title">CitizenAlert Backend</text>
   
   <g transform="translate(30, 60)">
     <!-- Status Indicator -->
-    <circle cx="5" cy="0" r="4" fill="#9b5de5" />
-    <text x="15" y="4" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="700" fill="#718096" letter-spacing="1">FRONTEND / NEXT.JS</text>
+    <circle cx="5" cy="0" r="4" fill="#00f5d4" />
+    <text x="15" y="4" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="700" fill="#718096" letter-spacing="1">REST API / FASTAPI</text>
   </g>
 
   <!-- Project Description (Manual Wrapping) -->
   <text x="30" y="90" class="project-desc">
-    <tspan x="30" dy="0">Plateforme web pour la réservation et la</tspan>
-    <tspan x="30" dy="18">gestion d'artistes peintres. Galerie d'art</tspan>
-    <tspan x="30" dy="18">numérique et catalogue d'œuvres.</tspan>
+    <tspan x="30" dy="0">API REST asynchrone pour signalements &amp; RBAC.</tspan>
+    <tspan x="30" dy="18">Tâches de fond (classification IA, détection</tspan>
+    <tspan x="30" dy="18">de doublons) via BackgroundTasks.</tspan>
   </text>
 
   <!-- Tech Badges -->
@@ -91,17 +92,17 @@
     <!-- Badge 1 -->
     <g transform="translate(0, 0)">
       <rect width="65" height="24" class="badge-bg" />
-      <text x="32.5" y="15" class="badge-text" text-anchor="middle">Next.js</text>
+      <text x="32.5" y="15" class="badge-text" text-anchor="middle">FastAPI</text>
     </g>
     <!-- Badge 2 -->
     <g transform="translate(73, 0)">
-      <rect width="65" height="24" class="badge-bg" />
-      <text x="32.5" y="15" class="badge-text" text-anchor="middle" style="fill: #00f5d4;">React</text>
+      <rect width="80" height="24" class="badge-bg" />
+      <text x="40" y="15" class="badge-text" text-anchor="middle" style="fill: #0072ff;">PostgreSQL</text>
     </g>
     <!-- Badge 3 -->
-    <g transform="translate(146, 0)">
-      <rect width="80" height="24" class="badge-bg" />
-      <text x="40" y="15" class="badge-text" text-anchor="middle" style="fill: #0072ff;">TypeScript</text>
+    <g transform="translate(161, 0)">
+      <rect width="65" height="24" class="badge-bg" />
+      <text x="32.5" y="15" class="badge-text" text-anchor="middle" style="fill: #9b5de5;">Docker</text>
     </g>
   </g>
 </svg>

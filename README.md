@@ -167,26 +167,26 @@
 <table width="100%" border="0" align="center">
   <tr>
     <td width="50%" align="center">
+      <a href="https://github.com/CitizenAlert-S/CitizenAlert-Frontend" target="_blank"><img src="./assets/project-citizenalert-front.svg" width="100%" alt="CitizenAlert Frontend" /></a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/CitizenAlert-S/CitizenAlert-Backend" target="_blank"><img src="./assets/project-citizenalert-back.svg" width="100%" alt="CitizenAlert Backend" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/NguetchuissiBrunel/YP-Frontend" target="_blank"><img src="./assets/project-yowpainter.svg" width="100%" alt="YowPainter Client" /></a>
+    </td>
+    <td width="50%" align="center">
       <a href="https://github.com/samuel200220/FARE_CALCULATOR_WEB_APP" target="_blank"><img src="./assets/project-farcal.svg" width="100%" alt="Farcal" /></a>
     </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/samuel200220/foodchain-ai" target="_blank"><img src="./assets/project-foodchain.svg" width="100%" alt="FoodChain AI" /></a>
-    </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/samuel200220/datacenter-project" target="_blank"><img src="./assets/project-datacenter.svg" width="100%" alt="Datacenter Project" /></a>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/samuel200220/ridego" target="_blank"><img src="./assets/project-ridego.svg" width="100%" alt="Ride&Go" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/NguetchuissiBrunel/YP-Frontend" target="_blank"><img src="./assets/project-yowpainter.svg" width="100%" alt="YowPainter" /></a>
-    </td>
     <td width="50%" align="center">
       <a href="https://github.com/EduAIOrg" target="_blank"><img src="./assets/project-eduai.svg" width="100%" alt="EduAI" /></a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/FoodChainAI" target="_blank"><img src="./assets/project-foodchain.svg" width="100%" alt="FoodChain AI" /></a>
     </td>
   </tr>
 </table>
