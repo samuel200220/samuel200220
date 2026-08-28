@@ -79,9 +79,9 @@
 
   <!-- Project Description (Manual Wrapping) -->
   <text x="30" y="90" class="project-desc">
-    <tspan x="30" dy="0">Plateforme d'intelligence artificielle dédiée</tspan>
-    <tspan x="30" dy="18">à l'alimentation. Analyse nutritionnelle et</tspan>
-    <tspan x="30" dy="18">optimisation de la chaîne logistique agro.</tspan>
+    <tspan x="30" dy="0">AI platform dedicated to food supply chains.</tspan>
+    <tspan x="30" dy="18">Nutritional analysis and agrifood</tspan>
+    <tspan x="30" dy="18">supply chain optimization.</tspan>
   </text>
 
   <!-- Tech Badges -->

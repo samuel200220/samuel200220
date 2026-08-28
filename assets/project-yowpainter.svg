@@ -81,9 +81,9 @@
 
   <!-- Project Description (Manual Wrapping) -->
   <text x="30" y="90" class="project-desc">
-    <tspan x="30" dy="0">Plateforme web pour la réservation et la</tspan>
-    <tspan x="30" dy="18">gestion d'artistes peintres. Galerie d'art</tspan>
-    <tspan x="30" dy="18">numérique et catalogue d'œuvres.</tspan>
+    <tspan x="30" dy="0">Modern web app for booking &amp; managing</tspan>
+    <tspan x="30" dy="18">art painters. Digital art gallery</tspan>
+    <tspan x="30" dy="18">and artworks management platform.</tspan>
   </text>
 
   <!-- Tech Badges -->

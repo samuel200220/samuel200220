@@ -80,9 +80,9 @@
 
   <!-- Project Description (Manual Wrapping) -->
   <text x="30" y="90" class="project-desc">
-    <tspan x="30" dy="0">Plateforme éducative intelligente intégrant</tspan>
-    <tspan x="30" dy="18">des agents IA conversationnels, génération</tspan>
-    <tspan x="30" dy="18">de quiz et assistance aux devoirs.</tspan>
+    <tspan x="30" dy="0">Intelligent educational platform featuring</tspan>
+    <tspan x="30" dy="18">conversational AI agents, quiz generation</tspan>
+    <tspan x="30" dy="18">and homework assistance.</tspan>
   </text>
 
   <!-- Tech Badges -->

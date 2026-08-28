@@ -2,9 +2,9 @@
 ====================================================================================================
  SAMUEL SEAN FOTSING · GITHUB PROFILE README
 ----------------------------------------------------------------------------------------------------
- Style      : Dark · Premium · Futuriste · Cyberpunk (Cyan #00f5d4 / Bleu #0072ff / Violet #9b5de5)
- Rendu      : 100% GitHub-safe — repose sur des SVG animés + badges dynamiques.
-              (GitHub retire les attributs `style=` en Markdown : le visuel vient des SVG, pas du CSS.)
+ Style      : Dark · Premium · Futuristic · Cyberpunk (Cyan #00f5d4 / Blue #0072ff / Violet #9b5de5)
+ Render     : 100% GitHub-safe — relies on animated SVGs + dynamic badges.
+              (GitHub strips `style=` attributes in Markdown: visual effects come from SVGs.)
 ====================================================================================================
 -->
 
@@ -16,30 +16,30 @@
 <br />
 
 <div align="center">
-  <img src="./assets/avatar-frame.svg" width="180" height="180" alt="Avatar de Samuel Sean Fotsing" />
+  <img src="./assets/avatar-frame.svg" width="180" height="180" alt="Samuel Sean Fotsing Avatar" />
 </div>
 
-<h1 align="center">Salut, je suis Samuel Sean </h1>
+<h1 align="center">Hi, I'm Samuel Sean 👋</h1>
 
 <div align="center">
   <a href="https://github.com/samuel200220">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=9B5DE5&center=true&vCenter=true&width=520&lines=AI+Engineer;Full+Stack+Developer;Software+Engineer;Machine+Learning+Enthusiast" alt="Rôles" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=9B5DE5&center=true&vCenter=true&width=520&lines=AI+Engineer;Full+Stack+Developer;Software+Engineer;Machine+Learning+Enthusiast" alt="Roles" />
   </a>
 </div>
 
 <p align="center">
-  <em>Ingénieur en Intelligence Artificielle &amp; développeur Full Stack.<br />
-  Je construis des systèmes distribués intelligents, des solutions cloud robustes<br />
-  et des applications web modernes centrées sur l'expérience utilisateur.</em>
+  <em>Artificial Intelligence Engineer &amp; Full Stack Developer.<br />
+  Building intelligent distributed systems, robust cloud solutions,<br />
+  and modern user-centric web applications.</em>
 </p>
 
-<!-- Liens sociaux -->
+<!-- Social Links -->
 <div align="center">
   <a href="https://linkedin.com/in/samuel200220" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0072ff?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:samuelfotsing2002@gmail.com"><img src="https://img.shields.io/badge/Email-00f5d4?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" /></a>
   <a href="https://x.com/samuel200220" target="_blank"><img src="https://img.shields.io/badge/X-9b5de5?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
   <a href="https://samuel200220.github.io" target="_blank"><img src="https://img.shields.io/badge/Portfolio-1e293b?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <img src="https://komarev.com/ghpvc/?username=samuel200220&label=Vues&color=00f5d4&style=for-the-badge" alt="Vues du profil" />
+  <img src="https://komarev.com/ghpvc/?username=samuel200220&label=Views&color=00f5d4&style=for-the-badge" alt="Profile Views" />
 </div>
 
 <div align="center">
@@ -47,25 +47,25 @@
 </div>
 
 <!-- ============================ ABOUT ============================ -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/People/Technologist.png" width="28" /> À propos de moi
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/People/Technologist.png" width="28" /> About Me
 
-Étudiant ingénieur à l'**ENSPY** (École Nationale Supérieure Polytechnique de Yaoundé), je me spécialise à l'intersection du **génie logiciel** et de l'**intelligence artificielle**. Mon moteur : résoudre des problèmes algorithmiques complexes et concevoir des systèmes performants, résilients et élégants.
+Engineering student at **ENSPY** (National Advanced School of Engineering of Yaoundé), specializing at the intersection of **software engineering** and **artificial intelligence**. What drives me: solving complex algorithmic problems and designing scalable, resilient, and elegant systems.
 
 <table width="100%" border="0" align="center">
   <tr valign="top">
     <td width="50%">
-      <h3>🤖 Intelligence Artificielle &amp; Web</h3>
-      Je conçois des architectures IA modernes — de l'entraînement de modèles de <strong>Deep Learning</strong> (PyTorch, TensorFlow) au développement d'applications génératives à base de <strong>LLM</strong> (LangChain, Hugging Face). Côté Web, je livre des interfaces réactives et fluides avec <strong>React</strong> et <strong>Next.js</strong>.
+      <h3>🤖 Artificial Intelligence &amp; Web</h3>
+      I design modern AI architectures — from training <strong>Deep Learning</strong> models (PyTorch, TensorFlow) to developing generative <strong>LLM</strong> applications (LangChain, Hugging Face). On the Web side, I deliver responsive and smooth user interfaces with <strong>React</strong> and <strong>Next.js</strong>.
     </td>
     <td width="50%">
-      <h3>🌐 Systèmes Distribués &amp; Cybersécurité</h3>
-      Je bâtis des backends robustes en <strong>Python (FastAPI)</strong> et <strong>Java (Spring Boot)</strong>, avec une attention forte portée à la scalabilité (<strong>Docker / Kubernetes</strong>), à la résilience et à la sécurisation des architectures distribuées.
+      <h3>🌐 Distributed Systems &amp; Cybersecurity</h3>
+      I build robust backends in <strong>Python (FastAPI)</strong> and <strong>Java (Spring Boot)</strong>, with a strong focus on scalability (<strong>Docker / Kubernetes</strong>), resilience, and securing distributed architectures.
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <img src="./assets/quick-facts-board.svg" width="100%" alt="Faits marquants" />
+  <img src="./assets/quick-facts-board.svg" width="100%" alt="Quick Facts" />
 </div>
 
 <div align="center">
@@ -73,7 +73,7 @@
 </div>
 
 <!-- ============================ STACK ============================ -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/Objects/Laptop.png" width="28" /> Technologies &amp; Compétences
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/Objects/Laptop.png" width="28" /> Technologies &amp; Skills
 
 <div align="center">
 
@@ -93,7 +93,7 @@
 <img src="https://img.shields.io/badge/Spring_Boot-9b5de5?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
 <img src="https://img.shields.io/badge/Node.js-00f5d4?style=for-the-badge&logo=nodedotjs&logoColor=black" alt="Node.js" />
 
-**🧠 IA &amp; Machine Learning**
+**🧠 AI &amp; Machine Learning**
 
 <img src="https://img.shields.io/badge/PyTorch-00f5d4?style=for-the-badge&logo=pytorch&logoColor=black" alt="PyTorch" />
 <img src="https://img.shields.io/badge/TensorFlow-9b5de5?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
@@ -119,17 +119,17 @@
 </div>
 
 <!-- ============================ STATS ============================ -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/Symbols/Chart%20Increasing.png" width="28" /> Statistiques GitHub
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/Symbols/Chart%20Increasing.png" width="28" /> GitHub Statistics
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=samuel200220&theme=onedark&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="Trophées GitHub" />
+  <img src="https://github-profile-trophy.vercel.app/?username=samuel200220&theme=onedark&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="GitHub Trophies" />
 </div>
 
 <br />
 
 <div align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=samuel200220&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00f5d4&text_color=a0aec0&icon_color=9b5de5" alt="Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel200220&layout=compact&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00f5d4&text_color=a0aec0" alt="Top langages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel200220&layout=compact&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00f5d4&text_color=a0aec0" alt="Top Languages" />
 </div>
 
 <br />
@@ -141,7 +141,7 @@
 <br />
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=samuel200220&theme=react-dark&bg_color=0d1117&color=00f5d4&line=0072ff&point=9b5de5&area=true&hide_border=true" width="100%" alt="Graphe d'activité" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=samuel200220&theme=react-dark&bg_color=0d1117&color=00f5d4&line=0072ff&point=9b5de5&area=true&hide_border=true" width="100%" alt="Activity Graph" />
 </div>
 
 <!-- ============================ SNAKE ============================ -->
@@ -151,18 +151,18 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samuel200220/samuel200220/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/samuel200220/samuel200220/output/github-snake.svg" />
-    <img alt="Le serpent dévore mon graphe de contributions" src="https://raw.githubusercontent.com/samuel200220/samuel200220/output/github-snake-dark.svg" width="100%" />
+    <img alt="The snake devours my contribution graph" src="https://raw.githubusercontent.com/samuel200220/samuel200220/output/github-snake-dark.svg" width="100%" />
   </picture>
 </div>
 
-<sub align="center">🔄 Généré automatiquement toutes les 12 h par GitHub Actions — voir <code>.github/workflows/snake.yml</code></sub>
+<sub align="center">🔄 Automatically generated every 12 hours by GitHub Actions — see <code>.github/workflows/snake.yml</code></sub>
 
 <div align="center">
   <img src="./assets/separator-violet-cyan.svg" width="100%" alt="" />
 </div>
 
 <!-- ============================ PROJECTS ============================ -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/Objects/Open%20Folder.png" width="28" /> Projets phares
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/Objects/Open%20Folder.png" width="28" /> Featured Projects
 
 <table width="100%" border="0" align="center">
   <tr>
@@ -196,7 +196,7 @@
 </div>
 
 <!-- ============================ ROADMAP ============================ -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/Travel%20and%20places/Milestone.png" width="28" /> Feuille de route &amp; objectifs
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/Travel%20and%20places/Milestone.png" width="28" /> Roadmap &amp; Goals
 
 <div align="center">
   <img src="./assets/roadmap.svg" width="100%" alt="Roadmap" />
@@ -207,7 +207,7 @@
 </div>
 
 <!-- ============================ CERTIFS & HACKATHONS ============================ -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/Objects/Graduation%20Cap.png" width="28" /> Certifications &amp; Compétitions
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/Objects/Graduation%20Cap.png" width="28" /> Certifications &amp; Competitions
 
 <table width="100%" border="0" align="center">
   <tr>
@@ -217,7 +217,7 @@
 </table>
 
 <div align="center">
-  <img src="./assets/hackathons-timeline.svg" width="100%" alt="Frise des hackathons" />
+  <img src="./assets/hackathons-timeline.svg" width="100%" alt="Hackathons Timeline" />
 </div>
 
 <div align="center">
@@ -225,9 +225,9 @@
 </div>
 
 <!-- ============================ CONTACT ============================ -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/Hand%20gestures/Handshake.png" width="28" /> Restons connectés
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/main/Emojis/Hand%20gestures/Handshake.png" width="28" /> Let's Connect
 
-<p align="center">Un projet innovant en IA ou une collaboration open-source en tête ? Écrivez-moi 👇</p>
+<p align="center">Have an innovative AI project or an open-source collaboration in mind? Feel free to reach out 👇</p>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/samuel-fotsing-bb2731374/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0072ff?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -239,9 +239,9 @@
 <br />
 
 <div align="center">
-  <img src="./assets/footer-animation.svg" width="100%" alt="Merci de votre visite !" />
+  <img src="./assets/footer-animation.svg" width="100%" alt="Thanks for visiting!" />
 </div>
 
 <div align="center">
-  <sub>Conçu avec des SVG vectoriels sur-mesure + APIs de statistiques open-source · Palette Cyan / Bleu / Violet</sub>
+  <sub>Crafted with custom vector SVGs + open-source stat APIs · Cyan / Blue / Violet Palette</sub>
 </div>

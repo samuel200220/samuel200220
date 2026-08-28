@@ -82,9 +82,9 @@
   <!-- Card Above the Timeline -->
   <g transform="translate(180, 20)">
     <rect width="220" height="70" class="card-border" stroke="#00f5d4" />
-    <text x="15" y="25" class="timeline-date">IA SANTÉ</text>
-    <text x="15" y="45" class="timeline-title">Hackathon IA Santé</text>
-    <text x="15" y="60" class="timeline-desc">Solutions IA appliquées à la médecine.</text>
+    <text x="15" y="25" class="timeline-date">HEALTH AI</text>
+    <text x="15" y="45" class="timeline-title">Health AI Hackathon</text>
+    <text x="15" y="60" class="timeline-desc">AI solutions applied to healthcare &amp; medicine.</text>
   </g>
   <!-- Connector dot on timeline -->
   <g transform="translate(290, 110)">
@@ -99,7 +99,7 @@
     <rect width="220" height="70" class="card-border" stroke="#9b5de5" />
     <text x="15" y="25" class="timeline-date-violet">CIDP COMPETITION</text>
     <text x="15" y="45" class="timeline-title">CIDP Hackathon</text>
-    <text x="15" y="60" class="timeline-desc">Innovation et cybersécurité.</text>
+    <text x="15" y="60" class="timeline-desc">Innovation and cybersecurity.</text>
   </g>
   <!-- Connector dot on timeline -->
   <g transform="translate(610, 110)">

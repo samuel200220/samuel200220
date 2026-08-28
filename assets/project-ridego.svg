@@ -85,9 +85,9 @@
 
   <!-- Project Description (Manual Wrapping) -->
   <text x="30" y="90" class="project-desc">
-    <tspan x="30" dy="0">Plateforme de transport intelligent. Service</tspan>
-    <tspan x="30" dy="18">de covoiturage, localisation en temps réel,</tspan>
-    <tspan x="30" dy="18">et calcul d'itinéraires optimisés.</tspan>
+    <tspan x="30" dy="0">Smart transport platform. Carpooling</tspan>
+    <tspan x="30" dy="18">service, real-time geolocation, and</tspan>
+    <tspan x="30" dy="18">optimized route calculation.</tspan>
   </text>
 
   <!-- Tech Badges -->

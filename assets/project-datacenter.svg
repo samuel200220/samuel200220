@@ -84,9 +84,9 @@
 
   <!-- Project Description (Manual Wrapping) -->
   <text x="30" y="90" class="project-desc">
-    <tspan x="30" dy="0">Création d'une infrastructure cloud complète</tspan>
-    <tspan x="30" dy="18">avec serveurs VPS, hébergement web et</tspan>
-    <tspan x="30" dy="18">orchestration automatisée de conteneurs.</tspan>
+    <tspan x="30" dy="0">Full cloud infrastructure setup with</tspan>
+    <tspan x="30" dy="18">VPS servers, web hosting, and automated</tspan>
+    <tspan x="30" dy="18">container orchestration.</tspan>
   </text>
 
   <!-- Tech Badges -->

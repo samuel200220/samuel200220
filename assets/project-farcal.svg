@@ -79,9 +79,9 @@
 
   <!-- Project Description (Manual Wrapping) -->
   <text x="30" y="90" class="project-desc">
-    <tspan x="30" dy="0">Application intelligente de calcul des tarifs</tspan>
-    <tspan x="30" dy="18">urbains de transport. Optimisation des trajets</tspan>
-    <tspan x="30" dy="18">et prédiction des coûts en temps réel.</tspan>
+    <tspan x="30" dy="0">Smart urban transport fare calculation</tspan>
+    <tspan x="30" dy="18">app. Route optimization and real-time</tspan>
+    <tspan x="30" dy="18">cost prediction engine.</tspan>
   </text>
 
   <!-- Tech Badges -->

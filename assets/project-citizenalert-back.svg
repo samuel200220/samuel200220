@@ -82,9 +82,9 @@
 
   <!-- Project Description (Manual Wrapping) -->
   <text x="30" y="90" class="project-desc">
-    <tspan x="30" dy="0">API REST asynchrone pour signalements &amp; RBAC.</tspan>
-    <tspan x="30" dy="18">Tâches de fond (classification IA, détection</tspan>
-    <tspan x="30" dy="18">de doublons) via BackgroundTasks.</tspan>
+    <tspan x="30" dy="0">Asynchronous REST API for reports &amp; RBAC.</tspan>
+    <tspan x="30" dy="18">Background tasks (AI classification, duplicate</tspan>
+    <tspan x="30" dy="18">detection) via FastAPI BackgroundTasks.</tspan>
   </text>
 
   <!-- Tech Badges -->

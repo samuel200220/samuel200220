@@ -82,9 +82,9 @@
 
   <!-- Project Description (Manual Wrapping) -->
   <text x="30" y="90" class="project-desc">
-    <tspan x="30" dy="0">Client PWA moderne pour cartographier et</tspan>
-    <tspan x="30" dy="18">signaler les incidents municipaux. Mode</tspan>
-    <tspan x="30" dy="18">hors-ligne, Leaflet &amp; classification IA.</tspan>
+    <tspan x="30" dy="0">Modern PWA client to map and report</tspan>
+    <tspan x="30" dy="18">municipal incidents. Offline mode,</tspan>
+    <tspan x="30" dy="18">interactive Leaflet map &amp; AI classification.</tspan>
   </text>
 
   <!-- Tech Badges -->
